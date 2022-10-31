@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT-Madras-Interview</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+<body>
+
+
+    <!--Start-Main-Layout-->
+
+        <div class="main-layout">
+            <div class="container">
+                <div class="inner-layout">
+
+                    <!--Start-inner-layout-lt-->
+                       <div class="inner-layout-lt">
+                            <div class="inner-layout-lt-top">
+                                <span class="plus"><i class="fa fa-plus"></i></span>
+                                <ul>
+                                    <li class="active"></li>
+                                    <li></li>
+                                    <li></li>
+
+                                </ul>
+
+                                <span class="plus"><i class="fa fa-plus"></i></span>
+
+                            </div>
+
+
+                            <div class="inner-layout-lt-middle">
+                                <h6>New Year, USA <span>Today 28 Sept</span></h6>
+
+                                <ul>
+                                    <li>07:19</li>
+                                    <li>19:32</li>
+
+                                </ul>
+                            </div>
+
+                            <div class="inner-layout-lt-btm">
+                                <span><i class="fa fa-plus"></i></span>
+                                <h4>27<sup></sup><span>Sunny</span></h4>
+                                <span><i class="fa fa-plus"></i></span>
+
+                               
+                            </div>
+                       </div>
+
+
+                    <!--End-inner-layout-lt-->
+
+
+                    <!--Start-inner-layout-rt-->
+
+                    <div class="inner-layout-rt">
+                        <div class="inner-layout-rt-top">
+                            <div class="profile-cont-lt">
+                                <h5>Welcome back Isabella!<span>Check out today's weather information</span></h5>
+                            </div>
+                            <div class="profile-cont-rt">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                <img src="images/profile.webp" alt="profile">
+                            </div>
+
+                        </div>
+
+
+                        <div class="inner-layout-rt-middle">
+                            <div class="upcoming-cont">
+                            <h6>Upcoming Hours</h6>
+                            <ul>
+                                <li class="inactive">Rain Precipiation<i class="fa fa-plus"></i></li>
+                                <li>Next days<i class="fa fa-plus"></i></li>
+
+                            </ul>
+                            </div>
+
+
+                            <div class="chart">
+                                <canvas id="myChart" width="400" height="200"></canvas>
+                            </div>
+                        
+
+
+                        </div>
+
+
+                        <div class="inner-layout-rt-btm">
+                            <h6>More details of today's weather</h6>
+
+                            <div class="weather-list">
+                                <div class="weather-item">
+                                    <p>Humidity<span><img src="images/icon-1.png" alt="icon-1"></span></p>
+                                    <h5>82%<span class="health">bad</span></h5>
+
+                                    <div class="progress">
+                                        <progress max="100" value="100" name="good"></progress>
+                                        <progress max="100" value="80" name="normal"></progress>
+                                        <progress max="100" value="20" name="bad"></progress>
+                                    </div>
+                                </div>
+
+                                <div class="weather-item">
+                                    <p>Wind<span><img src="images/icon-2.png" alt="icon-2"></span></p>
+
+                                    <div class="progress-item">
+                                        <div class="barOverflow">
+                                          <div class="bar"></div>
+                                        </div>
+                                        <span>8 Km/h</span>
+                                      </div>
+
+                                    
+                                </div>
+
+
+                                <div class="weather-item">
+                                    <p>Precipitation<span><img src="images/icon-3.png" alt="icon-3"></span></p>
+                                    <h5>1.4 cm</h5>
+
+                                    <div class="progress-small">
+                                        <progress max="100" value="100" name="0"></progress>
+                                        <progress max="100" value="60" name="1"></progress>
+                                        <progress max="100" value="0" name="2"></progress>
+                                        <progress max="100" value="0" name="3"></progress>
+                                        <progress max="100" value="0" name="4"></progress>
+                                        <progress max="100" value="0" name="5"></progress>
+                                        <progress max="100" value="0" name="6"></progress>
+                                        <progress max="100" value="0" name="7"></progress>
+                                        <progress max="100" value="0" name="8"></progress>
+                                        <progress max="100" value="0" name="9"></progress>
+                                        <progress max="100" value="0" name="10"></progress>
+
+                                    </div>
+                                </div>
+
+                                <div class="weather-item">
+                                    <p>UV index<span><img src="images/icon-4.png" alt="icon-4"></span></p>
+                                    <h5>4<span class="health">Medium</span></h5>
+
+                                    <div class="progress-xs">
+                                        <progress max="100" value="100" name="0-2"></progress>
+                                        <progress max="100" value="60" name="3-5"></progress>
+                                        <progress max="100" value="0" name="6-7"></progress>
+                                        <progress max="100" value="0" name="8-10"></progress>
+                                        <progress max="100" value="0" name="11+"></progress>
+                                        
+
+                                    </div>
+                                </div>
+
+
+                                <div class="weather-item">
+                                    <p>Feels like<span><img src="images/icon-5.png" alt="icon-5"></span></p>
+                                    <h5>30<sup>o</sup></h5>
+                                    <div class="progress-sm">
+                                        <progress max="100" value="50" name="0% -50% "></progress>
+                                    </div>
+                                </div>
+
+
+                                <div class="weather-item">
+                                    <p>Chance of rain<span><img src="images/icon-6.png" alt="icon-6"></span></p>
+                                    <h5>42%</h5>
+                                    <div class="progress-sm">
+                                        <progress max="100" value="30" name="0% -100%"></progress>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <!--End-inner-layout-rt-->
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+    <!--End-Main-Layout-->
+
+
+    <script src="js/Chart.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>
